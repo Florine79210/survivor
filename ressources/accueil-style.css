@@ -1,0 +1,64 @@
+    /* BODY */
+/* ============================================================================================================ */    
+    
+    
+    
+    /* TITRES HAUT DE PAGE */
+/* --------------------------------------------------------------------------------------------------------------- */
+
+h1 {
+    color: #000000;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+h2 {
+    color: #000000;
+    font-size: 40px;
+    font-weight: bold;
+    font-style: italic;
+}
+
+
+  /* CAROUSEL */
+/* --------------------------------------------------------------------------------------------------------------- */
+
+.carousel-item h5 {
+    color: #ffffff;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.carousel-item p {
+    color: #ffffff;
+    font-size: 20px;
+    
+}
+
+  /* PRESENTATION */
+/* --------------------------------------------------------------------------------------------------------------- */
+
+.presentation-lieux h3 {
+    color: #1c996d;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.presentation-lieux p {
+    color: #5d5a5a;
+    font-size: 20px;
+}
+
+.lieux img {
+    width: 100px;
+    border-radius: 100%;
+}
+
+.lieux a {
+    color: #5d5a5a;
+    font-size: 15px;
+    text-decoration: underline;
+}
+
+  /* L'EQUIPE */
+/* --------------------------------------------------------------------------------------------------------------- */
