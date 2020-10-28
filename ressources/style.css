@@ -3,17 +3,26 @@
 /* NAVBAR */
 /* ----------------------------------------------------------------------------------------------------------------------------                        */
 
+nav {
+  background-color: #d9d9d9;
+  border-color: #707070;
+}
+
 nav img {
-  width: 85px;
+  width: 130px;
+  margin-left: 150px;
 }
 
 .navbar-nav a {
   color: #1c996d;
+  font-size: 30px;
+  font-weight: bold;
 }
 
 #hamburger {
   background-color: #1c996d;
   color: #1c996d;
+  margin-right: 30px;
 }
 
 nav i {
@@ -32,7 +41,41 @@ body {
   font-family: "Roboto Slab";
 }
 
-/* 
-@media screen and (max-width: 767px) {
+
+/* FOOTER */
+/* ----------------------------------------------------------------------------------------------------------------------------                        */
+
+footer {
+  background-color: #1c996d;
+  border-color: #707070;
+}
+
+footer img {
+  width: 150px;
+}
+
+footer p {
+  color: #ffffff;
+  font-size: 20px;
+}
+
+/* MEDIA QUERIES */
+/* ----------------------------------------------------------------------------------------------------------------------------                        */
+
+@media screen and (min-width: 767px) {
+
+  .navbar-nav {
+    margin-right: 100px;
+  }
+
+  .navbar-nav a {
+    margin-right: 50px;
+  }
  
-} */
+}
+
+@media screen and (max-width: 767px) {
+  nav img {
+    margin-left: 30px;
+  }
+}
