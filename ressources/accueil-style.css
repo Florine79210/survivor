@@ -1,0 +1,192 @@
+/* BODY */
+/* ============================================================================================================ */
+
+/* TITRES HAUT DE PAGE */
+/* --------------------------------------------------------------------------------------------------------------- */
+
+h1 {
+  color: #000000;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+h2 {
+  color: #000000;
+  font-size: 30px;
+  font-weight: bold;
+  font-style: italic;
+}
+
+/* CAROUSEL */
+/* --------------------------------------------------------------------------------------------------------------- */
+
+.carousel-caption {
+  width: 25vw;
+}
+
+.carousel-item .btn {
+  width: 10vw;
+  border-radius: 30px;
+}
+
+.carousel-item .btn-1 {
+  color: #ffffff;
+  background-color: #a22f2f;
+}
+
+.carousel-item .btn-2 {
+  color: #a22f2f;
+  background-color: #ffffff;
+}
+
+.carousel-item h5 {
+  color: #ffffff;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.carousel-item p {
+  color: #ffffff;
+}
+
+/* PRESENTATION */
+/* --------------------------------------------------------------------------------------------------------------- */
+
+.presentation-lieux h3 {
+  color: #1c996d;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.presentation-lieux hr {
+  color: #5d5a5a;
+  width: 90px;
+}
+
+.presentation-lieux p {
+  color: #5d5a5a;
+  font-size: 15px;
+}
+
+.lieux {
+  border-style: solid;
+  border-width: 2px;
+  border-color: #1c996d;
+}
+.lieux img {
+  width: 100px;
+  border-radius: 100%;
+  margin: 0 auto;
+}
+
+.lieux a {
+  color: #5d5a5a;
+  font-size: 15px;
+  text-decoration: underline;
+}
+
+/* BANDEAU LES + DEMANDES */
+/* --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------          */
+
+.bandeau {
+  background-color: #1c996d;
+}
+
+h4 {
+  color: #ffffff;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.bandeau img {
+  width: 20vw;
+  border-radius: 30px;
+}
+
+.bandeau p {
+  color: #ffffff;
+  font-size: 15px;
+}
+
+
+/* L'EQUIPE */
+/* --------------------------------------------------------------------------------------------------------------- */
+
+.equipe h3 {
+    color: #1c996d;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.equipe hr {
+    color: #5d5a5a;
+    width: 90px;
+}
+
+.equipe img {
+    max-height: 60vh;
+    width: 70vw;
+}
+
+.equipe p {
+    color: #5d5a5a;
+    font-size: 15px;
+}
+
+
+/* MEDIA QUERIES */
+/* ============================================================================================================ */
+
+@media screen and (max-width: 994px) {
+    .lieux img {
+        width: 80px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+  .carousel-caption {
+    width: 50vw;
+    background: rgba(0, 0, 0, 0.35);
+  }
+
+  .carousel-item .btn {
+    width: 20vw;
+  }
+
+  .lieux img {
+    width: 120px;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  .carousel-caption {
+    width: 80vw;
+  }
+
+  .bandeau img {
+    width: 25vw;
+  }
+
+}
+
+@media screen and (max-width: 450px) {
+  .carousel-caption .btns {
+    margin-top: 15px;
+    padding-top: 20px;
+  }
+
+  .carousel-caption .btn {
+    width: 25vw;
+  }
+
+  .carousel-caption .description {
+    margin-top: 15px;
+    padding-top: 30px;
+  }
+  .carousel-item h5 {
+    font-size: 15px;
+  }
+  .carousel-item p {
+    font-size: 10px;
+  }
+}
