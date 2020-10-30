@@ -1,0 +1,55 @@
+/* BODY */
+/* ============================================================================================================ */
+
+.bandeau {
+    height: 65vh;
+    background-image: url(images-reservation/reservation.jpg);
+    background-size: cover;
+}
+
+.btn {
+    color: #ffffff;
+    background-color: #a22f2f;
+    width: 12vw;
+    border-radius: 30px;
+    margin-top: 190px;
+}
+
+.bandeau h1 {
+    color: #ffffff;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.bandeau p {
+    color: #ffffff;
+}
+
+.bandeau span {
+    font-weight: bold;
+}
+
+
+
+
+/* RESERVATION */
+/* --------------------------------------------------------------------------------------------------------------- */
+
+.reservation h1 {
+    color: #1c996d;
+    font-size: 40px;
+    font-weight: bold;
+  }
+  
+  .reservation hr {
+    color: #5d5a5a;
+    width: 90px;
+  }
+  
+  .reservation p {
+    color: #5d5a5a;
+    font-size: 20px;
+  }
+
+  /* FORMULAIRE */
+/* --------------------------------------------------------------------------------------------------------------- */

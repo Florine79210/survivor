@@ -33,8 +33,13 @@
 
 .cartes-cadeaux h1 {
     color: #1c996d;
-    font-size: 30px;
+    font-size: 40px;
     font-weight: bold;
+}
+
+.cartes-cadeaux hr {
+    color: #5d5a5a;
+    width: 90px;
 }
 
 .carte-cadeaux {

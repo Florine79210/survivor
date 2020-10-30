@@ -1,0 +1,29 @@
+/* BODY */
+/* ============================================================================================================ */
+
+.bandeau {
+    height: 65vh;
+    background-image: url(images-contact/contact.jpg);
+    background-size: cover;
+}
+
+.btn {
+    color: #ffffff;
+    background-color: #a22f2f;
+    width: 12vw;
+    border-radius: 30px;
+    margin-top: 190px;
+}
+
+.bandeau h1 {
+    color: #ffffff;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.bandeau p {
+    color: #ffffff;
+}
+
+
+
