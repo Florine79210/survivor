@@ -33,6 +33,11 @@
 /* Carousel */
 /* -------------------------------------------------------------------------------------------------------------------------- */
 
+.description {
+    width: 15vw;
+    background: rgba(0, 0, 0, 0.35);
+}
+
 .carousel-item img {
     width: 30vw;
     border-radius: 30px;
@@ -48,3 +53,15 @@
 .carousel-item p {
     color: #ffffff;
 }
+
+.carousel-control-prev {
+    width: 5vw;
+}
+
+.carousel-control-next {
+    width: 5vw;
+}
+
+/* MEDIA QUERIES */
+/* ============================================================================================================ */
+
