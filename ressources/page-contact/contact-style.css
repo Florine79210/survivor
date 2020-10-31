@@ -1,29 +1,42 @@
 /* BODY */
 /* ============================================================================================================ */
 
-.bandeau {
-    height: 65vh;
-    background-image: url(images-contact/contact.jpg);
-    background-size: cover;
-}
-
-.btn {
+.texte-bandeau {
+    margin-top: 50px;
+    margin-left:50px;
+    padding-top: 50px;
+    padding-left: 50px;
+  }
+  
+  .bandeau .btn {
     color: #ffffff;
     background-color: #a22f2f;
     width: 12vw;
     border-radius: 30px;
-    margin-top: 190px;
-}
-
-.bandeau h3 {
+    margin-top: 250px;
+    margin-left: 30px;
+  }
+  
+  .bandeau h3 {
     color: #ffffff;
     font-size: 30px;
     font-weight: bold;
-}
-
-.bandeau p {
+    margin-left: 40px;
+    padding-top: 50px;
+    padding-left: 50px;
+  }
+  
+  .bandeau p {
     color: #ffffff;
-}
+    font-size: 15px;
+    margin-left: 40px;
+    padding-left: 50px;
+  
+  }
+  
+  .bandeau span {
+    font-weight: bold;
+  }
 
 
 /* MAIL */
@@ -37,6 +50,7 @@
     color: #ffffff;
     font-size: 40px;
     font-weight: bold;
+    margin-left: 100px;
 }
 
 .mail p {
@@ -53,6 +67,7 @@
     color: #1c996d;
     font-size: 40px;
     font-weight: bold;
+    margin-left: 50px;
 }
 
 .nous-trouver hr {
@@ -69,3 +84,110 @@
 .nous-trouver p span {
     font-weight: bold;
 }
+
+
+/* MEDIA QUERIES */
+/* ============================================================================================================ */
+
+
+@media screen and (max-width: 1620px) {
+
+    .bandeau .btn {
+        margin-top: 150px;
+        width: 15vw;
+    }
+  }
+  
+  @media screen and (max-width: 1380px) {
+    
+    .bandeau .btn {
+        margin-top: 50px;
+        margin-left: 20px;
+        width: 20vw;
+    }
+  
+    .bandeau h3 {
+        margin-left: 0px;
+        padding-left: 20px;
+    }
+  
+    .bandeau p {
+        margin-left: 0px;
+        padding-left: 20px;
+    }
+
+    iframe {
+        width: 70vw;
+    }
+  }
+  
+  @media screen and (max-width: 1060px) {
+  
+    .bandeau .btn {
+        margin-top: 0;
+        margin-left: 10px;
+    }
+  
+  @media screen and (max-width: 906px) {
+    
+    .texte-bandeau {
+        margin-top: 0px;
+        margin-left: 30px;
+    }
+  
+    .bandeau .btn {
+        margin-left: 0px;
+        width: 30vw;
+    }
+  
+    .bandeau h3 {
+        font-size: 20px;
+        margin-left: 0px;
+        padding-top: 10px;  
+    }
+  
+    .bandeau p {
+        font-size: 10px;
+        margin-left: 0px;
+    }
+  }
+  
+  @media screen and (max-width: 550px) {
+    
+    .texte-bandeau {
+        margin-left: 0px;
+        padding-top: 20px;
+        padding-left: 10px;
+    }
+  
+    .bandeau .btn {
+        width: 45vw;
+        margin-top: 10px;
+    }
+
+    .nous-trouver h2 {
+        margin-left: 20px;
+    }
+  }
+  
+  @media screen and (max-width: 390px) {
+    
+    .texte-bandeau {
+        padding-top: 0px;
+        padding-left: 1px;
+    }
+  
+    .bandeau .btn {
+        width: 55vw;
+        margin-top: 1px;
+    }
+  
+    .bandeau h3 {
+        padding-top: 2px;  
+    }
+
+    .mail h1 {
+        margin-left: 50px;
+    }
+    
+  }
