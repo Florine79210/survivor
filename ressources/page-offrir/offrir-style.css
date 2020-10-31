@@ -136,6 +136,14 @@
     }
 }
 
+@media screen and (max-width: 1200px) {
+
+    .texte-carte {
+        margin-left: 20px;
+    }
+}
+
+
 @media screen and (max-width: 1060px) {
 
     .bandeau .btn {
