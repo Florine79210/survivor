@@ -15,7 +15,7 @@
     margin-top: 190px;
 }
 
-.bandeau h1 {
+.bandeau h3 {
     color: #ffffff;
     font-size: 30px;
     font-weight: bold;
@@ -26,4 +26,46 @@
 }
 
 
+/* MAIL */
+/* --------------------------------------------------------------------------------------------------------------- */
 
+.mail {
+    background-color: #1c996d;
+}
+
+.mail h1 {
+    color: #ffffff;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.mail p {
+    color: #ffffff;
+    font-size: 20px;
+}
+
+
+
+/* NOUS TROUVER */
+/* --------------------------------------------------------------------------------------------------------------- */
+
+.nous-trouver h2 {
+    color: #1c996d;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.nous-trouver hr {
+    color: #5d5a5a;
+    width: 90px;
+    margin-left: 85px;
+}
+
+.nous-trouver p {
+    color: #5d5a5a;
+    font-size: 20px;
+}
+
+.nous-trouver p span {
+    font-weight: bold;
+}
