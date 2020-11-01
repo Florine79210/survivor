@@ -40,13 +40,14 @@
 /* ============================================================================================================ */
 
 .nseg {
+    min-width: 25vw;
     border-bottom-right-radius: 30px;
     border-bottom-left-radius: 30px;
     background-color: #1c996d;
 }
 
 .nseg img {
-    width: 475px;
+    width: 25vw;
 }
 
 .nseg p span {
@@ -56,7 +57,7 @@
 
 .nseg h2 {
     color: #ffffff;
-    font-size: 30px;
+    font-size: 27px;
     font-weight: bold;
 }
 
@@ -107,6 +108,14 @@
         margin-left: 0px;
         padding-left: 20px;
     }
+
+    .nseg .emplacement-btn {
+        margin-left: -10px;
+    }
+
+    .nseg .btn {
+        width: 10vw;
+    }
 }
 
 @media screen and (max-width: 1060px) {
@@ -119,6 +128,23 @@
         margin-top: 0;
         margin-left: 10px;
         
+    }
+}
+
+@media screen and (max-width: 991px) {
+    
+    .nseg {
+        width: 65vw;
+        margin-right: 150px;
+    }
+
+    .nseg img {
+        width: 65vw;
+    }
+
+    .nseg .btn {
+        width: 20vw;
+        margin-left: 10px;
     }
 }
 
@@ -145,6 +171,13 @@
     }
 }
 
+@media screen and (max-width: 767px) {
+    
+    .nseg {
+        margin-right: 100px;
+    }
+}
+
 @media screen and (max-width: 550px) {
     
     .texte-bandeau {
@@ -156,6 +189,14 @@
     .bandeau .btn {
         width: 45vw;
         margin-top: 10px;
+    }
+
+    .nseg {
+        margin-right: 50px;
+    }
+
+    .nseg .btn {
+        width: 25vw;
     }
 }
 
@@ -173,5 +214,10 @@
 
     .bandeau h1 {
         padding-top: 2px;  
+    }
+
+
+    .nseg .btn {
+        width: 35vw;
     }
 }
