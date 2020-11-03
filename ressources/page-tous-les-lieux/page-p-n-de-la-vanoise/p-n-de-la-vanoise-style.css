@@ -1,0 +1,221 @@
+.texte-bandeau {
+    margin-top: 50px;
+    margin-left:50px;
+    padding-top: 50px;
+    padding-left: 50px;
+}
+
+.bandeau .btn {
+    color: #ffffff;
+    background-color: #a22f2f;
+    width: 12vw;
+    border-radius: 30px;
+    margin-top: 250px;
+    margin-left: 30px;
+}
+
+.bandeau h1 {
+    color: #ffffff;
+    font-size: 30px;
+    font-weight: bold;
+    margin-left: 40px;
+    padding-top: 50px;
+    padding-left: 50px;
+}
+
+.bandeau p {
+    color: #ffffff;
+    font-size: 15px;
+    margin-left: 40px;
+    padding-left: 50px;
+    background: rgba(0, 0, 0, 0.35);
+}
+
+.bandeau span {
+    font-weight: bold;
+}
+
+
+/* LES NSEG */
+/* ============================================================================================================ */
+
+.nseg {
+    min-width: 25vw;
+    border-bottom-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    background-color: #1c996d;
+}
+
+.nseg img {
+    width: 25vw;
+    border-style: solid;
+    border-width: 2px;
+    border-color:  #1c996d;
+}
+
+.nseg p span {
+    font-size: 20px;
+    font-style: italic;
+}
+
+.nseg h2 {
+    color: #ffffff;
+    font-size: 27px;
+    font-weight: bold;
+}
+
+.nseg p {
+    color: #ffffff;
+    font-size: 15px;
+}
+
+.nseg .pers-max p {
+     font-size: 20px;
+     font-weight: bold;
+ }
+
+.nseg .btn {
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: #a22f2f;
+    border-radius: 30px;
+    width: 8vw;
+}
+
+/* MEDIA QUERIES */
+/* ============================================================================================================ */
+
+@media screen and (max-width: 1620px) {
+
+    .bandeau .btn {
+        margin-top: 150px;
+        width: 15vw;
+    }
+}
+
+@media screen and (max-width: 1380px) {
+    
+    .bandeau .btn {
+        margin-top: 50px;
+        margin-left: 20px;
+        width: 20vw;
+    }
+
+    .bandeau h1 {
+        margin-left: 0px;
+        padding-left: 20px;
+    }
+
+    .bandeau p {
+        margin-left: 0px;
+        padding-left: 20px;
+    }
+
+    .nseg .emplacement-btn {
+        margin-left: -10px;
+    }
+
+    .nseg .btn {
+        width: 10vw;
+    }
+}
+
+@media screen and (max-width: 1060px) {
+
+    .bandeau .btn {
+        margin-top: 0;
+        margin-left: 10px;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    
+    .nseg {
+        width: 65vw;
+        margin-right: 150px;
+    }
+
+    .nseg img {
+        width: 65vw;
+    }
+
+    .nseg .btn {
+        width: 20vw;
+        margin-left: 10px;
+    }
+}
+
+@media screen and (max-width: 906px) {
+    
+    .texte-bandeau {
+        margin-top: 0px;
+        margin-left: 30px;
+    }
+
+    .bandeau .btn {
+        margin-left: 0px;
+    }
+
+    .bandeau h1 {
+        font-size: 20px;
+        margin-left: 0px;
+        padding-top: 10px;  
+    }
+
+    .bandeau p {
+        font-size: 10px;
+        margin-left: 0px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    
+    .nseg {
+        margin-right: 100px;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    
+    .texte-bandeau {
+        margin-left: 0px;
+        padding-top: 20px;
+        padding-left: 10px;
+    }
+
+    .bandeau .btn {
+        width: 45vw;
+        margin-top: 10px;
+    }
+
+    .nseg {
+        margin-right: 50px;
+    }
+
+    .nseg .btn {
+        width: 25vw;
+    }
+}
+
+@media screen and (max-width: 390px) {
+    
+    .texte-bandeau {
+        padding-top: 0px;
+        padding-left: 1px;
+    }
+
+    .bandeau .btn {
+        width: 55vw;
+        margin-top: 1px;
+    }
+
+    .bandeau h1 {
+        padding-top: 2px;  
+    }
+
+
+    .nseg .btn {
+        width: 35vw;
+    }
+}
