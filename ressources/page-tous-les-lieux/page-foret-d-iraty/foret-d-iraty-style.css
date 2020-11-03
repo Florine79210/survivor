@@ -48,13 +48,11 @@
 
 .nseg img {
     width: 25vw;
-}
-
-.meule {
     border-style: solid;
     border-width: 2px;
-    border-color:  #5d5a5a;
+    border-color:  #1c996d;
 }
+
 
 .nseg p span {
     font-size: 20px;
