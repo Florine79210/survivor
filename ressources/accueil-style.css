@@ -4,13 +4,13 @@
 /* TITRES HAUT DE PAGE */
 /* --------------------------------------------------------------------------------------------------------------- */
 
-h1 {
+.bandeau1 h1 {
   color: #000000;
   font-size: 30px;
   font-weight: bold;
 }
 
-h2 {
+.bandeau1 h2 {
   color: #000000;
   font-size: 30px;
   font-weight: bold;
@@ -88,22 +88,22 @@ h2 {
 /* BANDEAU LES + DEMANDES */
 /* --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------          */
 
-.bandeau {
+.bandeau2 {
   background-color: #1c996d;
 }
 
-.bandeau h4 {
+.bandeau2 h4 {
   color: #ffffff;
   font-size: 35px;
   font-weight: bold;
 }
 
-.bandeau img {
+.bandeau2 img {
   width: 20vw;
   border-radius: 30px;
 }
 
-.bandeau p {
+.bandeau2 p {
   color: #ffffff;
   font-size: 15px;
 }
@@ -146,6 +146,14 @@ h2 {
 
 @media screen and (max-width: 767px) {
 
+  .bandeau1 h1 {
+    font-size: 20px;
+  }
+  
+  .bandeau1 h2 {
+    font-size: 20px;
+  }
+
   .carousel-caption {
     width: 50vw;
     background: rgba(0, 0, 0, 0.35);
@@ -167,7 +175,7 @@ h2 {
     width: 70vw;
   }
 
-  .bandeau img {
+  .bandeau2 img {
     width: 25vw;
   }
 
@@ -180,7 +188,7 @@ h2 {
 
 @media screen and (max-width: 575px) {
 
-  .bandeau img {
+  .bandeau2 img {
     width: 45vw;
   }
 
