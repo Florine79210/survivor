@@ -28,6 +28,7 @@
     font-size: 15px;
     margin-left: 40px;
     padding-left: 50px;
+    background: rgba(0, 0, 0, 0.35);
 
 }
 
@@ -123,15 +124,10 @@
 }
 
 @media screen and (max-width: 1060px) {
-    
-    .bandeau p {
-        background: rgba(0, 0, 0, 0.35);
-    }
 
     .bandeau .btn {
         margin-top: 0;
         margin-left: 10px;
-        
     }
 }
 

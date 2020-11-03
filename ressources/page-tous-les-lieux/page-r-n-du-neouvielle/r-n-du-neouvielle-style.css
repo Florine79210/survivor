@@ -110,6 +110,7 @@
     .bandeau p {
         margin-left: 0px;
         padding-left: 20px;
+        background: rgba(0, 0, 0, 0.35);
     }
 
     .nseg .emplacement-btn {
@@ -123,14 +124,9 @@
 
 @media screen and (max-width: 1060px) {
     
-    .bandeau p {
-        background: rgba(0, 0, 0, 0.35);
-    }
-
     .bandeau .btn {
         margin-top: 0;
-        margin-left: 10px;
-        
+        margin-left: 10px; 
     }
 }
 
