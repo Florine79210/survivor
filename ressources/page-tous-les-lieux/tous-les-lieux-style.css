@@ -1,0 +1,188 @@
+/* BODY */
+/* ============================================================================================================ */
+
+.texte-bandeau {
+    margin-top: 50px;
+    margin-left:50px;
+    padding-top: 50px;
+    padding-left: 50px;
+}
+
+.bandeau .btn {
+    color: #ffffff;
+    background-color: #a22f2f;
+    width: 12vw;
+    border-radius: 30px;
+    margin-top: 250px;
+    margin-left: 30px;
+}
+
+.bandeau h1 {
+    color: #ffffff;
+    font-size: 30px;
+    font-weight: bold;
+    margin-left: 40px;
+    padding-top: 50px;
+    padding-left: 50px;
+}
+
+.bandeau p {
+    color: #ffffff;
+    font-size: 15px;
+    margin-left: 40px;
+    padding-left: 50px;
+
+}
+
+.bandeau span {
+    font-weight: bold;
+}
+
+
+/* Carousel */
+/* -------------------------------------------------------------------------------------------------------------------------- */
+
+.carousel-item img {
+    width: 30vw;
+    border-radius: 30px;
+}
+
+.carousel-item a {
+    color: #ffffff;
+    font-size: 30px;
+    font-weight: bold;
+    width: 15vw;
+    background: rgba(0, 0, 0, 0.35);
+}
+
+.carousel-item p {
+    color: #ffffff;
+}
+
+.carousel-control-prev {
+    width: 5vw;
+}
+
+.carousel-control-next {
+    width: 5vw;
+}
+
+
+/* MEDIA QUERIES */
+/* ============================================================================================================ */
+
+@media screen and (max-width: 1620px) {
+
+    .bandeau .btn {
+        margin-top: 150px;
+        width: 15vw;
+    }
+}
+
+@media screen and (max-width: 1380px) {
+    
+    .bandeau .btn {
+        margin-top: 50px;
+        margin-left: 20px;
+        width: 20vw;
+    }
+
+    .bandeau h1 {
+        margin-left: 0px;
+        padding-left: 20px;
+    }
+
+    .bandeau p {
+        margin-left: 0px;
+        padding-left: 20px;
+    }
+}
+
+@media screen and (max-width: 1167px) {
+
+    .carousel-item a {
+        font-size: 20px;
+        line-height: 5px
+    }    
+}
+
+@media screen and (max-width: 1060px) {
+    
+    .bandeau p {
+        background: rgba(0, 0, 0, 0.35);
+    }
+
+    .bandeau .btn {
+        margin-top: 0;
+        margin-left: 10px;
+        
+    }
+}
+
+@media screen and (max-width: 906px) {
+    
+    .texte-bandeau {
+        margin-top: 0px;
+        margin-left: 30px;
+    }
+
+    .bandeau .btn {
+        margin-left: 0px;
+    }
+
+    .bandeau h1 {
+        font-size: 20px;
+        margin-left: 0px;
+        padding-top: 10px;  
+    }
+
+    .bandeau p {
+        font-size: 10px;
+        margin-left: 0px;
+    }
+
+    .carousel-item p {
+        background-color: rgba(0, 0, 0, 0.35);
+}
+
+@media screen and (max-width: 550px) {
+    
+    .texte-bandeau {
+        margin-left: 0px;
+        padding-top: 20px;
+        padding-left: 10px;
+    }
+
+    .bandeau .btn {
+        width: 45vw;
+        margin-top: 10px;
+    }
+}
+
+@media screen and (max-width: 463px) {
+
+    .carousel-item a {
+        font-size: 12px;
+    }
+    
+    .carousel-item p {
+        font-size: 10px;
+    }
+}
+
+@media screen and (max-width: 390px) {
+    
+    .texte-bandeau {
+        padding-top: 0px;
+        padding-left: 1px;
+    }
+
+    .bandeau .btn {
+        width: 55vw;
+        margin-top: 1px;
+    }
+
+    .bandeau h1 {
+        padding-top: 2px;  
+    }
+}
