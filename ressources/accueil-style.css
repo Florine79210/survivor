@@ -29,6 +29,11 @@
   border-radius: 30px;
 }
 
+.carousel-item .btn:hover {
+  transform: scale(1.2);
+  transition: 1.5s;
+}
+
 .carousel-item .btn-1 {
   color: #ffffff;
   background-color: #a22f2f;
@@ -85,6 +90,12 @@
   text-decoration: underline;
 }
 
+.lieux a:hover {
+  transform: scale(1.2);
+  transition: 1.5s;
+  font-weight: bold;
+}
+
 /* BANDEAU LES + DEMANDES */
 /* --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------          */
 
@@ -101,6 +112,11 @@
 .bandeau2 img {
   width: 20vw;
   border-radius: 30px;
+}
+
+.bandeau2 img:hover {
+  transform: scale(1.2);
+  transition: 1.5s;
 }
 
 .bandeau2 p {
